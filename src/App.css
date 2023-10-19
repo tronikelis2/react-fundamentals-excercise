@@ -1,0 +1,43 @@
+.center-text {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-gap {
+    gap: 12px;
+}
+
+.p-md {
+    padding: 8px;
+}
+
+.input-outline {
+    border: none;
+    padding: 4px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: gray;
+}
+
+.input-outline:focus {
+    outline-color: blue;
+}
+
+.w-md {
+    width: 400px;
+}
+
+*:disabled {
+    cursor: not-allowed;
+}
